@@ -1,0 +1,6 @@
+<form action="/movies/add" method = "Post">
+     {%csrf_token%}
+    <input type="text" name="title" id="title" placeholder="Movie Tilte">
+    <input type="text" name="year" id="year" placeholder="Movie Tilte">
+    <input type="submit" value="add">
+</form>
